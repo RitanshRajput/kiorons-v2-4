@@ -761,3 +761,100 @@ nav {
   display: flex;
   justify-content: center;
 }
+/* footer */
+#footer-container {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 40px 20px;
+  font-family: "gellix", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.commitment-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.mid-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+}
+
+.email-container input {
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.email-container button {
+  background-color: #0056ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.download-container h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.download-container img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.logo-container h2 {
+  border: 1px solid #ffc700;
+  padding: 10px;
+  display: inline-block;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+}
+
+.link-container div {
+  text-align: left;
+}
+
+.link-container p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 0.875rem;
+  color: #666;
+}
